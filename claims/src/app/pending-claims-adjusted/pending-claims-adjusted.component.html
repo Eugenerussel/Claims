@@ -1,0 +1,6 @@
+<div class="nav-tabs">
+    <a (click)="setActiveTab('1')" [ngClass]="{'active': activeTab === '1'}">Pending Adjusted Claims - Current Inventory</a>
+    <a (click)="setActiveTab('2')" [ngClass]="{'active': activeTab === '2'}">History</a>
+  </div>
+   
+  <iframe class="iframe-container" [src]="dashboardUrl"></iframe>

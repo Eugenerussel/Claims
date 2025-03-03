@@ -34,8 +34,8 @@ export class PendingClaimsAdjustedComponent implements OnInit{
 
   updateDashboardUrl() {
     const urls: { [key: string]: string } = {
-      '1': 'www.wikipedia.org',
-      '2': 'www.angular.io'
+  '1': 'https://dev.usthealthproofconnect.com/qliksense/single/?appid=4ee0d04a-525d-403b-9c3b-1f40d4fd5f0a&sheet=946cf518-e725-4acc-8d25-dd9951417ae0&theme=horizon&opt=ctxmenu,currsel',
+  '2': 'https://dev.usthealthproofconnect.com/qliksense/single/?appid=4ee0d04a-525d-403b-9c3b-1f40d4fd5f0a&sheet=300f914f-8756-458d-9c37-b1c654ec45a0&theme=horizon&opt=ctxmenu,currsel'
     };
     this.dashboardUrl = this.sanitizer.bypassSecurityTrustResourceUrl(urls[this.activeTab] || urls['1']);
   }

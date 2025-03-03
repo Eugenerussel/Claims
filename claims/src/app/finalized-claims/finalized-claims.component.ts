@@ -8,7 +8,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
   styleUrl: './finalized-claims.component.css'
 })
 export class FinalizedClaimsComponent {
-  url: string ='www.angular.io'
+  url: string ='https://angular.io'
   styleUrl;
 
   constructor(private sanitizer: DomSanitizer) {

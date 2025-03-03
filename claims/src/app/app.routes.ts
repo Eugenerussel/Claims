@@ -6,11 +6,11 @@ import { FinalizedClaimsComponent } from './finalized-claims/finalized-claims.co
 import { AppComponent } from './app.component';
 
 export const routes: Routes = [
-    { path: 'ProductionReport', component: ProductionReportComponent },
-    { path: 'PendingClaimsNew', component: PendingClaimsNewComponent },
-    { path: 'PendingClaimsAdjusted', component: PendingClaimsAdjustedComponent },
-    { path: 'FinalizedClaims', component: FinalizedClaimsComponent },
-    { path: '', redirectTo:'ProductionReport',
+    { path: 'productionReport', component: ProductionReportComponent },
+    { path: 'pendingClaimsNew', component: PendingClaimsNewComponent },
+    { path: 'pendingClaimsAdjusted', component: PendingClaimsAdjustedComponent },
+    { path: 'finalizedClaims', component: FinalizedClaimsComponent },
+    { path: '', redirectTo:'productionReport',
         pathMatch:'full'
     }
 ];

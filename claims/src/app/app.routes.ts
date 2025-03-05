@@ -9,10 +9,14 @@ import { RedirectComponent } from './guard/RedirectComponent';
 import { AuthGuard } from './guard/auth-guard';
 
 export const routes: Routes = [
-    { path: 'productionReport', component: ProductionReportComponent,canActivate:[AuthGuard] },
-    { path: 'pendingClaimsNew', component: PendingClaimsNewComponent,canActivate:[AuthGuard] },
-    { path: 'pendingClaimsAdjusted', component: PendingClaimsAdjustedComponent,canActivate:[AuthGuard] },
-    { path: 'finalizedClaims', component: FinalizedClaimsComponent,canActivate:[AuthGuard] },
+    // { path: 'productionReport', component: ProductionReportComponent,canActivate:[AuthGuard] },
+    // { path: 'pendingClaimsNew', component: PendingClaimsNewComponent,canActivate:[AuthGuard] },
+    // { path: 'pendingClaimsAdjusted', component: PendingClaimsAdjustedComponent,canActivate:[AuthGuard] },
+    // { path: 'finalizedClaims', component: FinalizedClaimsComponent,canActivate:[AuthGuard] },
+    { path: 'productionReport', component: ProductionReportComponent },
+    { path: 'pendingClaimsNew', component: PendingClaimsNewComponent},
+    { path: 'pendingClaimsAdjusted', component: PendingClaimsAdjustedComponent },
+    { path: 'finalizedClaims', component: FinalizedClaimsComponent},
     { path: '', redirectTo:'productionReport',
         pathMatch:'full'
     },

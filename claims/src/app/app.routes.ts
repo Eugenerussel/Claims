@@ -1,8 +1,8 @@
 import { Routes } from '@angular/router';
-import { ProductionReportComponent } from './production-report/production-report.component';
-import { PendingClaimsAdjustedComponent } from './pending-claims-adjusted/pending-claims-adjusted.component';
-import { PendingClaimsNewComponent } from './pending-claims-new/pending-claims-new.component';
-import { FinalizedClaimsComponent } from './finalized-claims/finalized-claims.component';
+import { ProductionReportComponent } from './component/production-report/production-report.component';
+import { PendingClaimsAdjustedComponent } from './component/pending-claims-adjusted/pending-claims-adjusted.component';
+import { PendingClaimsNewComponent } from './component/pending-claims-new/pending-claims-new.component';
+import { FinalizedClaimsComponent } from './component/finalized-claims/finalized-claims.component';
 import { AppComponent } from './app.component';
 import { Component } from '@angular/core';
 import { RedirectComponent } from './guard/RedirectComponent';
